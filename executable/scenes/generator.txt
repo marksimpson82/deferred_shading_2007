@@ -1,0 +1,642 @@
+"Scene"
+
+{
+	"classname"	"Skybox"
+	"name"		"nightsky"
+}
+
+{
+	"classname"	"Camera"
+	"position"	"-340 224 192"
+	"orientation"	"25 0 140"
+	"near"		"1.0f"
+	"far"		"2048.0f"
+	"fov"		"70.0f"
+	"speed"		"128.0f"
+}
+
+{
+	"classname"	"LightAmbient"
+	"colour"	"0.15 0.17 0.18 1.0"
+}
+
+{
+	"classname"	"LightDirectional"
+	"colour"	"0.5 0.6 0.7 1.0"
+	"orientation"	"75 0 180"
+	"shadows"	"1"
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/room_raised_floor.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 223.686"
+	"orientation"	"0 0 0"
+	"model"		"meshes/floor.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 -223.686"
+	"orientation"	"0 0 0"
+	"model"		"meshes/floor.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-401.055 16 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/large_pillar_base.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-444.603 0 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/large_pillar.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"401.055 16 0"
+	"orientation"	"0 0 180"
+	"model"		"meshes/large_pillar_base.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"444.603 0 0"
+	"orientation"	"0 0 180"
+	"model"		"meshes/large_pillar.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/nooba_generator.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/room_walls.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-442.603 192.0 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/vent.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"442.603 192.0 0"
+	"orientation"	"0 0 180"
+	"model"		"meshes/vent.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-0.006 256.0 167.764"
+	"orientation"	"0 0 0"
+	"model"		"meshes/roof.X"
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-0.006 256.0 -167.764"
+	"orientation"	"0 0 180"
+	"model"		"meshes/roof.X"
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224.0 261.466 -160.074"
+	"orientation"	"0 0 180"
+	"model"		"meshes/skylight.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 261.466 -160.074"
+	"orientation"	"0 0 180"
+	"model"		"meshes/skylight.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224 261.466 -160.074"
+	"orientation"	"0 0 180"
+	"model"		"meshes/skylight.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224.0 261.466 160.074"
+	"orientation"	"0 0 0"
+	"model"		"meshes/skylight.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 261.466 160.074"
+	"orientation"	"0 0 0"
+	"model"		"meshes/skylight.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224 261.466 160.074"
+	"orientation"	"0 0 0"
+	"model"		"meshes/skylight.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"192 16 106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail128.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"64 16 106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail128.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-64 16 106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail128.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-160 16 106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail64.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224 16 106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail64.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"192 16 -106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail128.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"64 16 -106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail128.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-64 16 -106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail128.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-160 16 -106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail64.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224 16 -106.776"
+	"orientation"	"0 0 0"
+	"model"		"meshes/handrail64.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"342.701 0 327.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"112.184 0 327.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-111.959 0 327.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-342.701 0 327.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"342.701 0 -327.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"112.184 0 -327.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-111.959 0 -327.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-342.701 0 -327.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_vertical.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"342.701 248 -167.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"112.184 248 -167.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-111.959 248 -167.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-342.701 248 -167.765"
+	"orientation"	"0 0 0"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"342.701 248 167.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"112.184 248 167.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-111.959 248 167.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-342.701 248 167.765"
+	"orientation"	"0 0 180"
+	"model"		"meshes/girder_angled.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-537.749 0 232.16"
+	"orientation"	"0 0 0"
+	"model"		"meshes/door.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 334.773"
+	"orientation"	"0 0 90"
+	"model"		"meshes/door.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224.0 0 -334.219"
+	"orientation"	"0 0 0"
+	"model"		"meshes/door_large.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 0 -334.219"
+	"orientation"	"0 0 0"
+	"model"		"meshes/door_large.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224.0 0 -334.219"
+	"orientation"	"0 0 0"
+	"model"		"meshes/door_large.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"454.242 163.566 327.611"
+	"orientation"	"0 0 0"
+	"model"		"meshes/pipes.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"226.764 163.566 327.611"
+	"orientation"	"0 0 0"
+	"model"		"meshes/pipes.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-1.022 163.566 327.611"
+	"orientation"	"0 0 0"
+	"model"		"meshes/pipes.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-227.309 163.566 327.611"
+	"orientation"	"0 0 0"
+	"model"		"meshes/pipes.X"	
+}
+
+
+{
+	"classname" 	"CNode"
+	"position" 	"-456.498 163.566 327.611"
+	"orientation"	"0 0 0"
+	"model"		"meshes/pipes.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224.0 173.0 -331.041"
+	"orientation"	"0 0 0"
+	"model"		"meshes/light.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 173.0 -331.041"
+	"orientation"	"0 0 0"
+	"model"		"meshes/light.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224.0 173.0 -331.041"
+	"orientation"	"0 0 0"
+	"model"		"meshes/light.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-534.016 127.075 232.16"
+	"orientation"	"0 0 90"
+	"model"		"meshes/light.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 127 331.041"
+	"orientation"	"0 0 180"
+	"model"		"meshes/light.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"346.219 156.711 0"
+	"orientation"	"0 0 270"
+	"model"		"meshes/light.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 304 3"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 304 -3"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"0 304 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224 304 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224 304 -3"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"224 304 3"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224 304 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224 304 -3"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-224 304 3"
+	"orientation"	"0 0 0"
+	"model"		"meshes/cables.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"-112.139 261.547 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/light_overhead.X"	
+}
+
+{
+	"classname" 	"CNode"
+	"position" 	"111.558 261.547 0"
+	"orientation"	"0 0 0"
+	"model"		"meshes/light_overhead.X"	
+}
+
+
+
+{
+	"classname" 	"LightOmni"
+	"colour"	"2.8 2.8 1.5 1.0"
+	"position" 	"345.231 154.011 0"
+	"maxrange"	"128"
+	"shadows"	"0"
+}
+
+{
+	"classname" 	"LightOmni"
+	"colour"	"2.8 2.8 1.5 1.0"
+	"position" 	"224 171 -325"
+	"maxrange"	"128"
+	"shadows"	"0"
+}
+
+{
+	"classname" 	"LightOmni"
+	"colour"	"2.8 2.8 1.5 1.0"
+	"position" 	"0 171 -325"
+	"maxrange"	"128"
+	"shadows"	"0"
+}
+
+{
+	"classname" 	"LightOmni"
+	"colour"	"2.8 2.8 1.5 1.0"
+	"position" 	"-224 171 -325"
+	"maxrange"	"128"
+	"shadows"	"0"
+}
+
+{
+	"classname" 	"LightOmni"
+	"colour"	"2.8 2.8 1.5 1.0"
+	"position" 	"0 125 325"
+	"maxrange"	"128"
+	"shadows"	"0"
+}
+
+{
+	"classname"	"LightSpot"
+	"colour"	"2.8 2.8 1.5 1.0"
+	"position"	"-529.182 119.48 231.771"
+	"orientation"	"90.0 0.0 0"
+	"maxrange"	"160"
+	"innerangle"	"45"
+	"outerangle"	"80"
+	"falloff"	"1.0"
+	"shadows"	"1"
+}
+
+{
+	"classname"	"LightSpot"
+	"colour"	"1.5 1.5 2 1.0"
+	"position" 	"111.558 257.146 0"
+	"orientation"	"90.0 0.0 0"
+	"maxrange"	"512"
+	"innerangle"	"30"
+	"outerangle"	"70"
+	"falloff"	"1.0"
+	"shadows"	"1"
+}
+
+{
+	"classname"	"LightSpot"
+	"colour"	"1.5 1.5 2 1.0"
+	"position" 	"-111.558 257.146 0"
+	"orientation"	"90.0 0.0 0"
+	"maxrange"	"512"
+	"innerangle"	"30"
+	"outerangle"	"70"
+	"falloff"	"1.0"
+	"shadows"	"1"
+}

@@ -1,0 +1,174 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       ID_HELP_ABOUT
+        MENUITEM "Controls",                    ID_HELP_CONTROLS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 289, 241
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Controls.  Press OK to Return"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,232,14,50,14
+    CTEXT           "Action",IDC_STATIC,7,14,99,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Button / Key",IDC_STATIC,137,14,83,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Move Camera",IDC_STATIC,7,32,99,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "W A S D",IDC_STATIC,137,32,83,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Rotate Camera",IDC_STATIC,7,50,99,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Right Mouse",IDC_STATIC,137,50,83,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "'Run'",IDC_STATIC,7,87,99,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Left Shift",IDC_STATIC,137,87,83,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Toggle Directional Lights",IDC_STATIC,7,105,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "I",IDC_STATIC,137,105,83,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Toggle Omni Lights",IDC_STATIC,7,124,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "O",IDC_STATIC,137,124,83,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Toggle Spotlights",IDC_STATIC,7,142,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "P",IDC_STATIC,137,142,83,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Change Renderer",IDC_STATIC,7,68,99,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "R",IDC_STATIC,137,68,83,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Toggle Light Hulls",IDC_STATIC,7,160,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "L",IDC_STATIC,137,160,83,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Toggle Bounding Spheres",IDC_STATIC,7,178,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "B",IDC_STATIC,137,178,83,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Toggle Debug Shadow Map",IDC_STATIC,7,196,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Return",IDC_STATIC,137,196,83,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Deferred RT Display",IDC_STATIC,7,215,99,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Numpad 0-3",IDC_STATIC,137,215,83,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        VERTGUIDE, 106
+        VERTGUIDE, 137
+        VERTGUIDE, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+        HORZGUIDE, 14
+        HORZGUIDE, 28
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
