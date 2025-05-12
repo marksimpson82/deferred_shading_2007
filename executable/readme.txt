@@ -1,16 +1,16 @@
-Created by Mark Simpson (MJSimpson@gmail.com) for Computer Games Technology BSc (Hons) Final Year Project
+Created by Mark Simpson for Computer Games Technology BSc (Hons) Final Year Project
 
 System Requirements: 
 NVIDIA graphics card with Shader Model 3.0.  
 Depth stencil render targets are (I believe) an NVIDIA only feature.  I also use the vPos register which is part of Shader Model 3.0.
 
-Run the application by double clicking on the “Win32.exe” file.  Also, if NVPerfHUD is available, the application may be started with the NVPerfHUD driver by dragging the win32.exe icon over the NVPerfHUD icon.  It should be noted that switching renderers results in the deferred renderer’s performance suffering.  This is due to the way in which the resources are created.  If benchmarking is required, it is recommended that the user quit the application and restart it to properly re-initialise the deferred renderer.
+Run the application by double clicking on the â€œWin32.exeâ€ file.  Also, if NVPerfHUD is available, the application may be started with the NVPerfHUD driver by dragging the win32.exe icon over the NVPerfHUD icon.  It should be noted that switching renderers results in the deferred rendererâ€™s performance suffering.  This is due to the way in which the resources are created.  If benchmarking is required, it is recommended that the user quit the application and restart it to properly re-initialise the deferred renderer.
 
 Controls (can be accessed using the help-controls menu):
 
 Action						Key / Button
 Move camera position				W A S D
-‘Run’						Hold left shift while moving camera
+â€˜Runâ€™						Hold left shift while moving camera
 Rotate camera					Move mouse & hold mouse 2
 Change renderer					R
 Toggle directional lights			I
@@ -36,9 +36,9 @@ e.g. To load the scenes/canyon.txt scene: -scene canyon.txt
 
 Credits for art content used:
 
-The Fortress Forever (http://fortress-forever.com) artists.  Particularly Sindre "decs" Grønvoll, Tommy "Blunkka" Blomqvist and Paul “MrBeefy” Painter.
-Angel “R_Yell” Oliver (a.oliver@lycos.es) for the canyon model & textures.
-Simon “Nooba” Burford (simon@burford.id.au) for the generator model & texture.
+The Fortress Forever (http://fortress-forever.com) artists. Particularly Sindre "decs" GrÃ¸nvoll, Tommy "Blunkka" Blomqvist and Paul â€œMrBeefyâ€ Painter.
+Angel â€œR_Yellâ€ Oliver for the canyon model & textures.
+Simon â€œNoobaâ€ Burford for the generator model & texture.
 Hazel H. (http://www.hazelwhorley.com/textures.html) for the skybox textures.
 
 
