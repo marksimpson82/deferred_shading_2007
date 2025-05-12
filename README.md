@@ -5,4 +5,3 @@ There's a separate README in the `executable` directory that contains the assets
 
 * Website: 	https://defragdev.com
 * Github: 	https://github.com/marksimpson82
-* Email:	mjsimpson@gmail.com
